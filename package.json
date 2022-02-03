@@ -1,0 +1,25 @@
+{
+  "name": "some-chat",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "html-webpack-plugin": "^5.4.0",
+    "nodemon": "^2.0.13",
+    "webpack": "^5.58.2",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack serve --open",
+    "start-server": "node server",
+    "dev-server": "nodemon server"
+  },
+  "dependencies": {
+    "redux": "^4.1.1",
+    "socket.io": "^4.3.1",
+    "socket.io-client": "^4.3.2",
+    "uuid": "^8.3.2"
+  }
+}

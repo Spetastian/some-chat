@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Development</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <div id="buttons">
+      <div>
+        <button id="supportBtn">Support</button>
+      </div>
+      <div>
+        <button id="clientBtn">Client</button>
+      </div>
+    </div>
+    <h1 id="title"></h1>
+    <div id="supportApp" style="display: none">
+      <button id="pairWithClientBtn" style="display: none">
+        Pair with client
+      </button>
+      <p>
+        Number of clients in queue: <span id="numberOfClientsInQueue">0</span>
+      </p>
+      <p>Number of total clients: <span id="numberOfTotalClients">0</span></p>
+    </div>
+    <div id="clientApp" style="display: none">
+      <p>You are a client waiting for a chat...</p>
+    </div>
+  </body>
+</html>
